@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="flex flex-row justify-center items-start bg-black overflow-hidden bg-hero bg-no-repeat w-screen pt-24 xs:pt-48 xs:inline-block xs:bg-hero xs:w-full">
+    <div className="flex flex-row justify-center items-start bg-black overflow-hidden bg-hero bg-no-repeat w-screen pt-24 xs:pt-48 xs:inline-block xs:bg-hero xs:w-full z-50">
       <div className="w-1/2 md:text-center lg:py-20 pl-20 xs:w-full xs:p-5">
               {/* Image container */}
         <div className="lg:w-3/5 xs:w-full">

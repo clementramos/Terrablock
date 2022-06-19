@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Roadmap () {
     return (
-        <><><><div className="flex flex-row justify-center items-start bg-black overflow-hidden bg-sparkles w-screen h-screen pt-24 xs:pt-48 xs:inline-block xs:h-full xs:w-full">
+        <><><><div className="z-50 flex flex-row justify-center items-start bg-black overflow-hidden bg-sparkles w-screen h-screen pt-24 xs:pt-48 xs:inline-block xs:h-full xs:w-full">
             <div className="w-1/2 md:text-center lg:py-56 pl-20 xs:w-full xs:p-5">
                 {/* Text container */}
                 <div className="lg:w-3/5 xs:w-full">

@@ -5,7 +5,7 @@ import Link from "next/link"
 export default function Footer () {
     return (
         
-    <div className="bg-black h-auto grid grid-cols-3">
+    <div className="bg-black h-auto grid grid-cols-3 z-50">
         <div className="pl-10 pt-10">
             <Image alt="logo footer" src="/logofooter.png" width="50px" height="50px">
             </Image>

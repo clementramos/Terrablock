@@ -5,6 +5,14 @@
             </Link>
 
   background-image: var(--front);
+  
+import '../styles/globals.css'
+
+function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />
+}
+
+export default MyApp
 
 - rajouter les lueurs
 - étoiles partout sur bg-black 
