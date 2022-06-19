@@ -1,0 +1,15 @@
+<Link href="/#">
+                <img 
+                className="block lg: h-28 w-auto"
+                src="/navicon.png"/>
+            </Link>
+
+  background-image: var(--front);
+
+- rajouter les lueurs
+- étoiles partout sur bg-black 
+- juste "phase 1" en emerald-400
+- entre about et road map, rajouter un bandeau "dl whitepaper" + bouton pour dl
+
+
+🔥 Awesome responsive website made in order to showcase the pre-sale of an NFT project in France 🇫🇷. This is a first version that will be modified through time. Only the beginning of a big project. 🚀
