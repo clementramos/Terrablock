@@ -96,6 +96,8 @@ roadmap :
                     </div>
                 </div>
 
+lueur :                 <div className="flex justify-center" style={divBlur}></div>
+
 - rajouter les lueurs
 - étoiles partout sur bg-black 
 - juste "phase 1" en emerald-400
