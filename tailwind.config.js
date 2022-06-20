@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  important: true,
+
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -7,7 +9,7 @@ module.exports = {
   theme: {
     backgroundImage: {
       'hero': "linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('../public/bgimage.svg')",
-      'sparkles': "linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url('../public/sparkles.gif')"
+      'sparkles': "linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url('../public/sparkles2.gif')"
     },
     fontSize: {
       'xs': '.75rem',
