@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="w-1/2 md:text-center lg:py-20 pl-20 xs:w-full xs:p-5">
               {/* Image container */}
         <div className="lg:w-3/5 xs:w-full">
-        <div className="card charizard animated bg-sparkles w-80 h-[32rem] rounded-xl p-6 space-y-4 border border-emerald-400">
+        <div className="card charizard animated bg-sparkles1 w-80 h-[32rem] rounded-xl p-6 space-y-4 border border-emerald-400">
             <a href="#">
                 <img className="w-full h-64 rounded-md transition"
                     src="/nft4.png"
