@@ -49,7 +49,7 @@ export default function Roadmap () {
                     {/* Text container */}
                     <div className="lg:w-full h-full xs:w-full">
                         <div className="mb-14">
-                            <div className="text-white font-bold text-4xl text-center ">A revolution for the real estate industry
+                            <div className="text-white font-bold text-4xl text-center "><p>A <span className="text-emerald-400">revolution</span> for the <span className="text-emerald-400">real estate</span> industry</p>
                             </div>
                         </div>
                         <p className="text-gray-400 font-semibold text-xl text-center">We are entering a new era of real estate investment. <br></br> <br></br>
@@ -71,7 +71,7 @@ export default function Roadmap () {
                     {/* Text container */}
                     <div className="lg:w-full h-full xs:w-full">
                         <div className="mb-14">
-                            <div className="text-white font-bold text-4xl text-center ">Diversify your investments
+                            <div className="text-white font-bold text-4xl text-center "><p>Diversify your <span className="text-emerald-400">investments</span></p>
                             </div>
                         </div>
                         <p className="text-gray-400 font-semibold text-xl text-center pr-8">Terrablock is an innovative, reliable, and flexible way of investing in a diversified french real estate portfolio. <br></br> <br></br>
@@ -82,7 +82,7 @@ Through Terrablock&apos;s NFTS, you have the opportunity to invest in real estat
                 {/* Image container */}
                 
             </div></>
-
+<div className="pt-32 bg-sparkles">
 <VerticalTimeline
 className="bg-sparkles py-32 w-full max-w-full text-lg"
 lineColor= "rgb(52 211 153)">
@@ -91,13 +91,13 @@ lineColor= "rgb(52 211 153)">
     contentStyle={{ background: 'none', color: 'white', boxShadow: 'none' }}
     date="Phase 1"
     dateClassName="text-5xl text-emerald-400"
-    iconStyle={{ background: 'rgb(52 211 153)', color: 'green' }}
+    iconStyle={{ background: 'rgb(52 211 153)', color: 'rgb(52 211 153)' }}
     iconClassName="w-2.5 h-2.5 -ml-1 mt-20"
     contentArrowStyle={{ display: 'none'}}
     textClassName="text-3xl"
   >
     <h1 className="vertical-timeline-element-title font-bold">Initial Coin Offering</h1>
-    <h2 className="vertical-timeline-element-subtitle">02/10/2023</h2>
+    <h2 className="vertical-timeline-element-subtitle"></h2>
     <p className="font-medium text-lg">
     The ICO will enable you to buy your TRB tokens.
 Then, TRB will be able to be traded as any cryptocurrency or exchanged against Terrablock&apos;s NFTs.
@@ -109,13 +109,13 @@ See white paper for tokenomics
     contentStyle={{ background: 'none', color: 'white', boxShadow: 'none' }}
     date="Phase 2"
     dateClassName="text-5xl text-emerald-400"
-    iconStyle={{ background: 'rgb(52 211 153)', color: 'green' }}
+    iconStyle={{ background: 'rgb(52 211 153)', color: 'rgb(52 211 153)' }}
     iconClassName="w-2.5 h-2.5 -ml-1 mt-20"
     contentArrowStyle={{ display: 'none'}}
     textClassName="text-3xl"
   >
     <h1 className="vertical-timeline-element-title font-bold">Purchase of the real estate portfolio</h1>
-    <h2 className="vertical-timeline-element-subtitle">02/10/2023</h2>
+    <h2 className="vertical-timeline-element-subtitle"></h2>
     <p className="font-medium text-lg">
     The terrablock team will use a triple diversification strategy to build the real estate portfolio: <br></br>
                                                                                             -diversification by type of property (apartments, investment properties, commercial remises...)<br></br>
@@ -128,13 +128,13 @@ See white paper for tokenomics
     contentStyle={{ background: 'none', color: 'white', boxShadow: 'none' }}
     date="Phase 3"
     dateClassName="text-5xl text-emerald-400"
-    iconStyle={{ background: 'rgb(52 211 153)', color: 'green' }}
+    iconStyle={{ background: 'rgb(52 211 153)', color: 'rgb(52 211 153)' }}
     iconClassName="w-2.5 h-2.5 -ml-1 mt-20"
     contentArrowStyle={{ display: 'none'}}
     textClassName="text-3xl"
   >
     <h1 className="vertical-timeline-element-title font-bold">Real Estate Portfolio Tokenisation</h1>
-    <h2 className="vertical-timeline-element-subtitle">02/10/2023</h2>
+    <h2 className="vertical-timeline-element-subtitle"></h2>
     <p className="font-medium text-lg">
     Terrablock has been developed to have its own marketplace. 
 A marketplace where you will be able to buy your Terrablock&apos;s NFT that will be a digital representation of the real estate portfolio.
@@ -153,7 +153,7 @@ This will able you to invest quickly and easily in our french real estate portfo
     textClassName="text-3xl"
   >
     <h1 className="vertical-timeline-element-title font-bold">NFT Sale</h1>
-    <h2 className="vertical-timeline-element-subtitle">02/10/2023</h2>
+    <h2 className="vertical-timeline-element-subtitle"></h2>
     <p className="font-medium text-lg">
     Terrablock&apos;s NFT holders will automatically receive TRB tokens on their wallet representing the rental income generated by the real estate portfolio in proportion to their investment. 
 
@@ -161,4 +161,5 @@ They will also benefit from exclusive advantages reserved for the Terrablock com
     </p>
   </VerticalTimelineElement>
 </VerticalTimeline>
+</div>
                 </>)}
