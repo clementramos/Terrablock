@@ -85,7 +85,7 @@ function classNames(...classes) {
       <div className="border-hidden">
         <div className="flex justify-between items-center border-hidden border-b-2 border-gray-100 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-          <span className="inline-flex items-center text-3xl font-medium text-white hover:text-emerald-400	">TERRABLOCK</span>
+          <span className="inline-flex items-center text-3xl font-medium text-white hover:text-emerald-400	"><a href="../#">TERRABLOCK</a></span>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
             <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-emerald-400 hover:text-emerald-300 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -94,7 +94,7 @@ function classNames(...classes) {
             </Popover.Button>
           </div>
           <Popover.Group as="nav" className="xs:hidden md:flex space-x-10">                
-            <a href="calendar" className="inline-flex items-center text-1xl font-medium text-white hover:text-emerald-400	">
+            <a href="contact" className="inline-flex items-center text-1xl font-medium text-white hover:text-emerald-400	">
               ABOUT
             </a>
             <a href="#" className="inline-flex items-center text-1xl font-medium text-white hover:text-emerald-400	">
