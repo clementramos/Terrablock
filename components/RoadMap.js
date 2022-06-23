@@ -82,10 +82,11 @@ Through Terrablock&apos;s NFTS, you have the opportunity to invest in real estat
                 {/* Image container */}
                 
             </div></>
-<div className="pt-32 bg-sparkles">
+<div className="pt-32 bg-sparkles" id="roadmap">
 <VerticalTimeline
 className="bg-sparkles py-32 w-full max-w-full text-lg"
-lineColor= "rgb(52 211 153)">
+lineColor= "rgb(52 211 153)"
+>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'none', color: 'white', boxShadow: 'none' }}

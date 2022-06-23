@@ -97,7 +97,7 @@ function classNames(...classes) {
             <a href="contact" className="inline-flex items-center text-1xl font-medium text-white hover:text-emerald-400	">
               ABOUT
             </a>
-            <a href="#" className="inline-flex items-center text-1xl font-medium text-white hover:text-emerald-400	">
+            <a href="#roadmap" className="inline-flex items-center text-1xl font-medium text-white hover:text-emerald-400	">
               ROADMAP
             </a>
             <a href="#" className="inline-flex items-center text-1xl font-medium text-white hover:text-emerald-400	">

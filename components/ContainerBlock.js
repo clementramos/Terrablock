@@ -46,7 +46,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         )}
       </Head>
       <Script id="card" strategy="afterInteractive" dangerouslySetInnerHTML={{__html:``}}  />
-      <main className="dark:bg-gray-800 w-full">
+      <main className="dark:bg-gray-800 w-full scroll-smooth">
         <Navbar/>
         <ScrollToTop smooth/>
         <div className="border-none">{children}</div>

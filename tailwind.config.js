@@ -10,7 +10,8 @@ module.exports = {
     backgroundImage: {
       'hero': "linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('../public/bgimage.svg')",
       'sparkles': "linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url('../public/sparkles2.gif')",
-      'sparkles-pokemon': "url('../public/sparkles.gif')"
+      'sparkles-pokemon': "url('../public/sparkles.gif')",
+      'contact': "linear-gradient(90deg, rgba(177,255,168,1) 0%, rgba(56,255,192,1) 53%, rgba(0,212,255,1) 100%)"
     },
     fontSize: {
       'xs': '.75rem',
