@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import { motion } from 'framer-motion';
 
 const divBlur = {
     background: 'radial-gradient(circle, rgba(177,255,168,1) 0%, rgba(56,255,192,1) 53%, rgba(0,212,255,1) 100%)',
@@ -28,17 +29,32 @@ export default function Roadmap () {
             {/* Image container */}
             <div className="grid grid-cols-3 px-10 bg-sparkles bg-cover w-full h-min pr-8 md:text-center xs:w-full xs:p-5 ">
                 <div className="col-start-1 col-end-2  ">
+                    <motion.div
+                        whileHover={{
+                            scale: 2,
+                        }}>
                     <Image alt="design" src="/about1.svg" width="1640px" height="1224px" />
+                    </motion.div>
                     <p className="text-white font-bold text-5xl col-1 mb-10">Portfolio </p>
                     <p className="text-white text-center font-medium text-lg col-1 px-10">The Terrablock team is in charge of the whole process of purchasing the real estate portfolio, as well as its rental management.</p>
                 </div>
                 <div className="col-start-2 col-end-3">
+                    <motion.div
+                        whileHover={{
+                            scale: 2,
+                        }}>
                     <Image alt="design" src="/about3.svg" width="1640px" height="1224px" />
+                    </motion.div>
                     <p className="text-white font-bold text-5xl col-1 mb-10">NFTs </p>
                     <p className="text-white text-center font-medium text-lg col-1 px-10">The whole real estate portfolio will be represented by the Terrablock&apos;s NFTS collection</p>
                 </div>
                 <div className="col-start-3 col-end-4">
+                    <motion.div
+                        whileHover={{
+                            scale: 2,
+                        }}>
                     <Image alt="design" src="/about2.svg" width="1640px" height="1224px" />
+                    </motion.div>
                     <p className="text-white font-bold text-5xl col-1 mb-10">Rental return </p>
                     <p className="text-white text-center font-medium text-lg col-1 px-10">Hold, buy or resell your Terrablock NFTS and benefit from the performance of the real estate portfolio.</p>
                 </div>
