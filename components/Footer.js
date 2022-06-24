@@ -24,7 +24,7 @@ export default function Footer () {
             </a>
         </div>
         </div>
-        <div className="text-center pt-10">
+        <div className="text-center pt-10" id="socials">
             <p className="text-white font-medium pb-3"><a href="https://discord">ABOUT</a></p>
             <p className="text-white font-medium pb-3">ROAD MAP</p>            
             <p className="text-white font-medium pb-3">WHITE PAPER</p>            

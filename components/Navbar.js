@@ -44,17 +44,17 @@ export default function Navbar() {
 const resources = [
   {
     name: 'Contact',
-    href: '#',
+    href: 'contact',
     icon: ChatAlt2Icon,
   },
   {
     name: 'Team',
-    href: '/team',
+    href: 'team',
     icon: UsersIcon,
   },
   { 
     name: 'Socials',  
-    href: '#', 
+    href: '#socials', 
     icon: LinkIcon },
 ]
 
@@ -94,7 +94,7 @@ function classNames(...classes) {
             </Popover.Button>
           </div>
           <Popover.Group as="nav" className="xs:hidden md:flex space-x-10">                
-            <a href="contact" className="inline-flex items-center text-1xl font-medium text-white hover:text-emerald-400	">
+            <a href="#about" className="inline-flex items-center text-1xl font-medium text-white hover:text-emerald-400	">
               ABOUT
             </a>
             <a href="#roadmap" className="inline-flex items-center text-1xl font-medium text-white hover:text-emerald-400	">

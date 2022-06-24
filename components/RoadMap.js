@@ -18,7 +18,7 @@ export default function Roadmap () {
         <div className="flex justify-start items-start bg-black overflow-hidden bg-sparkles w-screen h-min xs:pt-48 xs:inline-block xs:h-full xs:w-full">
             <div className="w-full h-min md:text-center pl-20 xs:w-full xs:p-5">
                 {/* Text container */}
-                <div className="lg:w-full xs:w-full">
+                <div className="lg:w-full xs:w-full" id="about">
                     <div className="">                        
                         <div className="flex justify-start text-white font-bold text-6xl text-center  pb-0">About Terrablock</div>
                     </div>
@@ -26,7 +26,7 @@ export default function Roadmap () {
             </div>
             </div>
             {/* Image container */}
-            <div className="grid grid-cols-3 px-10 bg-sparkles w-full h-min pr-8 md:text-center xs:w-full xs:p-5 ">
+            <div className="grid grid-cols-3 px-10 bg-sparkles bg-cover w-full h-min pr-8 md:text-center xs:w-full xs:p-5 ">
                 <div className="col-start-1 col-end-2  ">
                     <Image alt="design" src="/about1.svg" width="1640px" height="1224px" />
                     <p className="text-white font-bold text-5xl col-1 mb-10">Portfolio </p>
