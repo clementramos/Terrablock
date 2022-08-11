@@ -11,7 +11,8 @@ const variants = {
   exit: { opacity: 0, x: 0, y: -100 },
 }
 
-export default function Home({}) {
+
+export default function contact({}) {
   return (
     <><Head>
       <link rel="shortcut icon" href="/logofooter.png" />
